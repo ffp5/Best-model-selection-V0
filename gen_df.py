@@ -57,4 +57,4 @@ pivot_df = combined_df.pivot_table(
 )
 
 # Save the pivot table to a CSV file
-pivot_df.to_csv('model_performance.csv')
+pivot_df.to_pickle('model_performance.csv')
